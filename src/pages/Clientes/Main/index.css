@@ -1,0 +1,45 @@
+.lista-clientes{
+    margin: 20px auto 0;
+    padding: 0 20px;
+    max-width: 100%; 
+   
+
+}
+.lista-clientes th {
+    text-align: center;
+   
+}
+.lista-clientes article{
+    background: rgb(135, 184, 228);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lista-clientes article p{
+    font-size: 16px;
+    color: dimgray;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.lista-clientes article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: none;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-clientes article a:hover{
+    background: blue;
+    color: #fff;
+}
